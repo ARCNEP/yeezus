@@ -7,6 +7,6 @@
 	});
 
 	$audioPlayer.on('mouseout', function (){
-		$music.get(0).pause();
+		$music.get(0).load();
 
 	});
