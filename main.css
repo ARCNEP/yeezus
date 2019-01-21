@@ -1,19 +1,22 @@
 
 body {
 
-	cursor: url(smile.png), pointer;
-	background: grey; 
+	background-image: url(toroymoi.jpg);
+	background-size: 150%;  
 }
 
 #audio-player{
 	position: relative;
- 	padding-top: 50%;
+ 	margin-top: 50%;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 240s ;
+          transition:         transform 240s ;
+cursor: none;
+}
 
-
-
-
-
-
-
-
-
+#audio-player:active {
+  -webkit-transform: rotate(3800000deg);
+          transform: rotate(3800000deg) infinite;
+   color: blue;
+          cursor: none;
+}
