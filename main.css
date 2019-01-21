@@ -14,7 +14,7 @@ body {
 cursor: none;
 }
 
-#audio-player:active {
+#audio-player:hover, #audio-player:active  {
   -webkit-transform: rotate(3800000deg);
           transform: rotate(3800000deg) infinite;
    color: blue;
